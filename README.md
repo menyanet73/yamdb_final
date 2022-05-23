@@ -21,8 +21,8 @@ Create github secrets with your data.
 
 ```sh
 DB_NAME=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
+DB_USER=postgres
+DB_PASSWORD=postgres
 DB_HOST=db
 DB_PORT=5432
 ALLOWED_HOST=web
