@@ -17,15 +17,15 @@ git clone https://github.com/menyanet73/infra_sp2.git
 ```sh
 cd infra_sp2/infra/
 ```
-Create .env file in infra dir. Fill .env file with your data.
+Create github secrets with your data.
 
 ```sh
-DB_NAME=postgres (default)
-POSTGRES_USER=postgres (default)
-POSTGRES_PASSWORD=postgres (default)
-DB_HOST=db (default)
-DB_PORT=5432 (default)
-ALLOWED_HOST= web
+DB_NAME=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+DB_HOST=db
+DB_PORT=5432
+ALLOWED_HOST=web
 ```
 
 Create/download docker-compose images and containers
