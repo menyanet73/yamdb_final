@@ -53,9 +53,8 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         scripts: |
-          sudo docker pull menyanet73/yamdb
-          sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 menyanet73:yamdb
+          sudo docker-compose stop
+          sudo docker-compose rm web
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_ENGINE=${{ secrets.DB_NAME }} >> .env
