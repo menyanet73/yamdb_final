@@ -26,6 +26,13 @@ POSTGRES_PASSWORD=postgres
 DB_HOST=db
 DB_PORT=5432
 ALLOWED_HOST=web
+DOCKER_PASSWORD=your_dockerpassword
+DOCKER_USERNAME=your_dockerusername
+HOST=ip_server
+SSH_KEY=ssh_for_server
+TELEGRAM_TO=id_your_tg
+TELEGRAM_TOKEN=tg_bot_token
+USER=username_for_server
 ```
 
 Create/download docker-compose images and containers
