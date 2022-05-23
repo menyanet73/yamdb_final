@@ -2,6 +2,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 from api_yamdb.settings import GROUPS, USER
+
 from .validators import less_then_now_year_validator
 
 
@@ -73,7 +74,6 @@ class Title(models.Model):
     class Meta:
         verbose_name = 'Произведение'
         verbose_name_plural = 'Произведения'
-
 
     def __str__(self):
         return self.name
