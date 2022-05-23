@@ -1,5 +1,6 @@
 # Yamdb API final
 ![example workflow](https://github.com/menyanet73/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 Project with titles, scores, and reviews for it. Auth by jwt.
 
 #### Stack: 
@@ -24,7 +25,7 @@ POSTGRES_USER=postgres (default)
 POSTGRES_PASSWORD=postgres (default)
 DB_HOST=db (default)
 DB_PORT=5432 (default)
-ALLOWED_HOST= your server ip (default - all allowed)
+ALLOWED_HOST= web
 ```
 
 Create/download docker-compose images and containers
