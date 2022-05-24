@@ -3,6 +3,9 @@
 
 Project with titles, scores, and reviews for it. Auth by jwt.
 
+Project can be viewed at:
+http://51.250.29.80/redoc/
+
 #### Stack: 
 Python 3, Django 2.2, DRF, PyJWT
 
