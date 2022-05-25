@@ -2,6 +2,8 @@
 ![example workflow](https://github.com/menyanet73/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 Project with titles, scores, and reviews for it. Auth by jwt.
+Packed in Docker containers.
+Stack: Python3, Django, Nginx, Gunicorn
 
 Project can be viewed at:
 http://51.250.29.80/redoc/
